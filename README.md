@@ -60,8 +60,8 @@ Easily start your Reactive RESTful Web Services
 [Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
 
 
-
+### Rodando o jar gerado
 code-with-quarkus\target>java -jar quarkus-app/quarkus-run.jar
 
-rorando local e escolhendo o yaml
+### Rodando local e escolhendo o yaml
 mvnw quarkus:dev -Dquarkus.profile=prod
