@@ -1,0 +1,15 @@
+# quarkus:
+#   datasource:
+#     username: admin
+#     driver: org.h2.Driver
+#     db-kind: h2
+#     jdbc:
+#       url: jdbc:h2:mem:testdb
+#   hibernate-orm:
+#     dialect: org.hibernate.dialect.H2Dialect
+#     database:
+#       generation: none
+#     log:
+#       sql: true
+url-base:
+  web-base: http://base
