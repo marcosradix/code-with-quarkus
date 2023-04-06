@@ -19,10 +19,7 @@ public class GreetingResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        ;
-        return """
-            Hello from RESTEasy Reactive: %s
-            urlBase: %s
-                """.formatted(url, urlBase);
+        
+        return String.format("Hello from RESTEasy Reactive: %s urlBase: %sv", url, urlBase);
     }
 }
